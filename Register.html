@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="HomePage.html">
+                <img src="Logo5.png" alt="RxcellentCare.com Logo">
+            </a>
+        </div>
+        <div class="form-container">
+            <h2>Register</h2>
+            <form action="/register" method="POST">
+                <label for="name"></label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name here..." required><br>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Enter your email here..." required><br>
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="Enter your password here..." required><br>
+                <label for="confirm_password"></label>
+                <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password" required><br><br><br>
+                <button type="submit">Register</button>
+            </form>
+            <p>Already have an account? <a href="Login.html">Login</a></p>
+        </div>
+    </div>
+</body>
+</html>

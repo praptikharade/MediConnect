@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Aqua background color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffc0cb; /* Pink container background color */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.emergency-info {
+    text-align: center;
+}
+
+.emergency-info h2 {
+    color: #333;
+}
+
+.emergency-info p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.emergency-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.address {
+    font-style: italic;
+    color: #333;
+}

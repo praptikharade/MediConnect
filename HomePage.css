@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+.sp1{
+    font-family: cursive;
+    font-style: italic;
+}
+
+.sp2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+
+.sp3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: smaller;
+    font-style:oblique;
+}
+
+.sp4{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sp5{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sp6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#img1{
+    z-index: -1;
+}
+
+#hindi1{
+    font-family: "Tiro Devanagari Hindi", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.box{
+    /*border: 2px double purple;*/
+    width: 1250px;
+    height: 590px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.bgimg{
+    position:absolute;
+    background-image:url("BackgroundIMG.jpg");
+    height: 90%;
+    width: 90%;
+    z-index: -2;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(5px);
+    background-position: center;
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.hori1{
+    /*border: 2px solid brown;*/
+    height: 5%;
+}
+
+
+
+.hori2{
+    /*border: 5px solid blue;*/
+    width: 1250px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 95%;
+}
+
+.verti1{
+    height: 100%;
+    /*border: 2px solid palevioletred;*/
+    width: 30%;
+    float: left;
+}
+
+.verti2{
+    z-index: -1;
+    height: 100%;
+    /*border: 2px solid palevioletred;*/
+    width: 70%;
+    float: right;
+}
+
+.bg2{
+    position: absolute;
+    background-color: aqua;
+    height: 93%;
+    width:67.5%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.h1{
+    height: 7%;
+    /*border: 2px solid salmon;*/
+}
+
+.h2{
+    height: 93%;
+    /*border: 2px solid salmon;*/
+}
+
+.div1{
+    float:inline-start;
+}

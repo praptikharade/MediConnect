@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RxcellentCare.com - Book an Appointment</title>
+    <link rel="stylesheet" href="BookAppointment.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="HomePage.html"><img src="Logo5.png" alt="RxcellentCare.com Logo"></a>
+            <h2 style="font-family: cursive; font-style: italic;">Rxcellent Care</h2>
+        </div>
+        <h2>Book an Appointment</h2>
+        <div class="appointment-form">
+            <label for="date">Choose a Date : </label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Choose a Time : </label>
+            <select id="time" name="time" required>
+                <option value="8:00 AM">8:00 AM</option>
+                <option value="10:00 AM">10:00 AM</option>
+                <option value="12:00 PM">12:00 PM</option>
+                <option value="2:00 PM">2:00 PM</option>
+                <option value="4:00 PM">4:00 PM</option>
+                <option value="6:00 PM">6:00 PM</option>
+                <option value="8:00 PM">8:00 PM</option>
+                <option value="10:00 PM">10:00 PM</option>
+                <!-- Add more time options as needed -->
+            </select>
+            <label for="doctor">Choose a Doctor:</label>
+            <select id="doctor" name="doctor" required>
+                <option value="Dr. John Smith">Dr. John Smith</option>
+                <option value="Dr. Sarah Patil">Dr. Sarah Patil</option>
+                <option value="Dr. Vijay Joshi">Dr. Vijay Joshi</option>
+                <!-- Add more doctor options as needed -->
+            </select>
+            <button onclick="bookAppointment()">Book Appointment</button>
+        </div>
+    </div>
+    <script src="BookAppointment.js"></script>
+</body>
+</html>

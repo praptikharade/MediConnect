@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Aqua background color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffc0cb; /* Pink container background color */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.medicine-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.medicine-item {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.medicine-item img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.cart {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.cart h3 {
+    text-align: center;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-items li {
+    margin-bottom: 10px;
+}
+
+.total {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.checkout {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout:hover {
+    background-color: #45a049;
+}

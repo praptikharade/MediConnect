@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RxcellentCare.com - Order Medicines Online</title>
+    <link rel="stylesheet" href="MedicinesOnline.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="HomePage.html"><img src="Logo5.png" alt="RxcellentCare.com Logo"></a>
+            <h2 style="font-family: cursive; font-style: italic;">Rxcellent Care</h2>
+        </div>
+        <h2>Order Medicines Online</h2>
+        <div class="medicine-list">
+            <div class="medicine-item">
+                <img src="Crocin.jpeg" alt="Medicine 1">
+                <h3>Crocin</h3>
+                <p>Pain-killer</p>
+                <p>Price: ₹150</p>
+                <button class="add-to-cart" data-name="Crocin" data-price="150" onclick="addToCart(this)" style="background-color: #e0f7fa;">Add to Cart</button>
+            </div>
+            <div class="medicine-item">
+                <img src="Paracetamol.jpeg" alt="Medicine 2">
+                <h3>Paracetamol</h3>
+                <p>Pain-killer Part 2</p>
+                <p>Price: ₹175</p>
+                <button class="add-to-cart" data-name="Paracetamol" data-price="175" onclick="addToCart(this)" style="background-color: #e0f7fa;">Add to Cart</button>
+            </div>
+            <!-- Add more medicine items as needed -->
+        </div>
+        <div class="cart">
+            <h3>Shopping Cart</h3>
+            <ul class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </ul>
+            <p class="total">Total: ₹<span>0.00</span></p>
+            <button class="checkout" onclick="checkout()">Checkout</button>
+        </div>
+    </div>
+    <script src="MedicinesOnline.js"></script>
+</body>
+</html>
